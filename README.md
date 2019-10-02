@@ -8,9 +8,11 @@ If we as bug bounty hunters present small chunks of work in the form of a CTF ch
 
 ## The Objective
 
-In this repository you find a golang binary named 'victim-binary'. This is a custom webserver that plays a major role in a target i have been working on. If authentication can be bypassed on this webserver, we can complete a full exploit chain and submit a report. 
+In this repository you will find a golang binary named 'victim-binary'. This binary in fact is a custom webserver that plays a major role in a target at Google i have been working on. If authentication can be bypassed on this webserver, we can complete a full exploit chain and submit a report together. 
 
 ## Running the binary
+
+
 
 
 ## Rules
