@@ -1,5 +1,6 @@
 #!/bin/sh
-# https://github.com/offensi/CTF-challenge/run-victim-binary.sh. wtm@offensi.com
+# https://github.com/offensi/CTF-challenge/run-victim-binary.sh. 
+# wtm@offensi.com
 
 # need root to listen on privileged ports
 if [[ $EUID -ne 0 ]]; then
@@ -8,10 +9,9 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # initial setup
-if [ ! -d /static-content ]; then
- mkdir /static_content/
- touch /static_content/theia_etags
-fi
+mkdir -p /static_content/
+touch /static_content/theia_etags
+
 
 export BASE_SERVER_URL='https://someserver'
 export EMAIL='xxx@gmail.com'
