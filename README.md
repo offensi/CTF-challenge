@@ -23,14 +23,13 @@ Host: localhost:980
 User-Agent: curl/7.52.1  
 Accept: */*   
 ...
-* Connection state changed (MAX_CONCURRENT_STREAMS updated)!  
-< HTTP/2 302  
-< content-type: text/html; charset=utf-8  
-< location: https://accounts.google.com/o/oauth2/v2/auth? client_id=xxx.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fsomeserver%2Fdevshell%2Fgateway%2Foauth&response_type=code &scope=email&state=eyJ0b2tlbiI6InZ6QVBWcW4yT1I4aWczdy1FSy1tcUEiLCJ0YXJnZXRfaG9zdCI6ImxvY2FsaG9zdDo5ODAifQ  
-< content-length: 315  
-< date: Thu, 03 Oct 2019 09:28:55 GMT 
+Connection state changed (MAX_CONCURRENT_STREAMS updated)!  
+HTTP/2 302  
+content-type: text/html; charset=utf-8  
+location: https://accounts.google.com/o/oauth2/v2/auth? client_id=xxx.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fsomeserver%2Fdevshell%2Fgateway%2Foauth&response_type=code &scope=email&state=eyJ0b2tlbiI6InZ6QVBWcW4yT1I4aWczdy1FSy1tcUEiLCJ0YXJnZXRfaG9zdCI6ImxvY2FsaG9zdDo5ODAifQ  
+content-length: 315  
+date: Thu, 03 Oct 2019 09:28:55 GMT 
 
-<a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=xxx.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fsomeserver%2Fdevshell%2Fgateway%2Foauth&amp;response_type=code&amp;scope=email&amp;state=eyJ0b2tlbiI6InZ6QVBWcW4yT1I4aWczdy1FSy1tcUEiLCJ0YXJnZXRfaG9zdCI6ImxvY2FsaG9zdDo5ODAifQ">Found</a>.  
 
 Good luck!  
 
