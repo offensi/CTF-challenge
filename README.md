@@ -14,31 +14,15 @@ git clone https://github.com/offensi/CTF-challenge
 cd CTF-challenge  
 bash run-victim-binary.sh  
 
-At this stage the binary should have opened listening port: 
-
 curl -k https://localhost:980 -v  
-...
-GET / HTTP/1.1  
-Host: localhost:980  
-User-Agent: curl/7.52.1  
-Accept: */*   
-...
-Connection state changed (MAX_CONCURRENT_STREAMS updated)!  
-HTTP/2 302  
-content-type: text/html; charset=utf-8  
-location: https://accounts.google.com/o/oauth2/v2/auth? client_id=xxx.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fsomeserver%2Fdevshell%2Fgateway%2Foauth&response_type=code &scope=email&state=eyJ0b2tlbiI6InZ6QVBWcW4yT1I4aWczdy1FSy1tcUEiLCJ0YXJnZXRfaG9zdCI6ImxvY2FsaG9zdDo5ODAifQ  
-content-length: 315  
-date: Thu, 03 Oct 2019 09:28:55 GMT 
-
 
 Good luck!  
 
 
 
-
 ## Rules
 - I can only authorize testing on this binary ;)
-- I will collaborate with the first CTF player to contact me with a working authentication bypass on this binary (DM or e-mail)
+- I will collaborate with the first CTF player to contact me with a working authentication bypass on this binary (DM or e-mail me)
 - If you can complete a full exploit chain yourself, you don't need my help. Just let me know you've succeeded and report it to the Google VRP directly
 - Don't be evil
 
