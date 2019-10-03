@@ -10,9 +10,9 @@ If we as bug bounty hunters present small chunks of work in the form of a CTF ch
 In this repository you will find a golang binary named 'victim-binary'. This binary in fact is a custom webserver that plays a major role in Google's Cloudshell. If authentication can be bypassed on this webserver, we _might_ be able to complete a full exploit chain and submit a report to Google VRP. Note that this webserver runs on a remote host, so ENV vars can not be changed. The bypass has to work remotely. 
 
 ## Running the binary
-git clone https://github.com/offensi/CTF-challenge
-cd CTF-challenge
-bash run-victim-binary.sh
+git clone https://github.com/offensi/CTF-challenge  
+cd CTF-challenge  
+bash run-victim-binary.sh  
 
 
 
