@@ -17,12 +17,12 @@ bash run-victim-binary.sh
 At this stage the binary should have opened listening port: 
 
 curl -k https://localhost:980 -v  
-.....  
-> GET / HTTP/1.1  
-> Host: localhost:980  
-> User-Agent: curl/7.52.1  
-> Accept: */*  
-> 
+...
+GET / HTTP/1.1  
+Host: localhost:980  
+User-Agent: curl/7.52.1  
+Accept: */*   
+...
 * Connection state changed (MAX_CONCURRENT_STREAMS updated)!  
 < HTTP/2 302  
 < content-type: text/html; charset=utf-8  
@@ -40,7 +40,7 @@ Good luck!
 ## Rules
 - I can only authorize testing on this binary ;)
 - I will collaborate with the first CTF player to contact me with a working authentication bypass on this binary (DM or e-mail)
-- If you can complete a full exploit chain yourself, you don't need my help. Just let me know you've succeeded and report it to the Google VRP
+- If you can complete a full exploit chain yourself, you don't need my help. Just let me know you've succeeded and report it to the Google VRP directly
 - Don't be evil
 
 
@@ -48,7 +48,10 @@ Good luck!
 This idea was born out of the comments posted by @the_st0rm on Twitter in reaction to @LiveOverflow's new video, featuring a bug i did discover. Thanks to @GoogleVRP and @sirdarckcat, i had the opportunity to talk to several of the worlds top CTF players in London last year. My assumptions on CTF games and players are based on these conversations. 
 
 
-
+#### Contact
+- e-mail : wtm@offensi.com
+- website: https://offensi.com
+- twitter: https://twitter.com/wtm_offensi
 
 
 
